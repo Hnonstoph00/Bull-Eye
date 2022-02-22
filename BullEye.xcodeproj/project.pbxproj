@@ -13,6 +13,8 @@
 		E34420A827C39B6E00681502 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E34420A627C39B6E00681502 /* Main.storyboard */; };
 		E34420AA27C39B7200681502 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E34420A927C39B7200681502 /* Assets.xcassets */; };
 		E34420AD27C39B7200681502 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E34420AB27C39B7200681502 /* LaunchScreen.storyboard */; };
+		E34A27AA27C4C76C001E8676 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34A27A927C4C76C001E8676 /* AboutViewController.swift */; };
+		E34A27AD27C4CC92001E8676 /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = E34A27AC27C4CC92001E8676 /* BullsEye.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		E34420A927C39B7200681502 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E34420AC27C39B7200681502 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E34420AE27C39B7200681502 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E34A27A927C4C76C001E8676 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		E34A27AC27C4CC92001E8676 /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +60,11 @@
 		E344209F27C39B6E00681502 /* BullEye */ = {
 			isa = PBXGroup;
 			children = (
+				E34A27AC27C4CC92001E8676 /* BullsEye.html */,
 				E34420A027C39B6E00681502 /* AppDelegate.swift */,
 				E34420A227C39B6E00681502 /* SceneDelegate.swift */,
 				E34420A427C39B6E00681502 /* ViewController.swift */,
+				E34A27A927C4C76C001E8676 /* AboutViewController.swift */,
 				E34420A627C39B6E00681502 /* Main.storyboard */,
 				E34420A927C39B7200681502 /* Assets.xcassets */,
 				E34420AB27C39B7200681502 /* LaunchScreen.storyboard */,
@@ -125,6 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E34420AD27C39B7200681502 /* LaunchScreen.storyboard in Resources */,
+				E34A27AD27C4CC92001E8676 /* BullsEye.html in Resources */,
 				E34420AA27C39B7200681502 /* Assets.xcassets in Resources */,
 				E34420A827C39B6E00681502 /* Main.storyboard in Resources */,
 			);
@@ -139,6 +146,7 @@
 			files = (
 				E34420A527C39B6E00681502 /* ViewController.swift in Sources */,
 				E34420A127C39B6E00681502 /* AppDelegate.swift in Sources */,
+				E34A27AA27C4C76C001E8676 /* AboutViewController.swift in Sources */,
 				E34420A327C39B6E00681502 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,7 +295,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 97A784X9WH;
+				DEVELOPMENT_TEAM = 6QY5FWZG73;
 				INFOPLIST_FILE = BullEye/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -306,7 +314,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 97A784X9WH;
+				DEVELOPMENT_TEAM = 6QY5FWZG73;
 				INFOPLIST_FILE = BullEye/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
